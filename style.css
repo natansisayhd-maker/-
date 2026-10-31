@@ -278,11 +278,11 @@ section{
     position: relative;
     border-radius: 3rem;
     border: 2px solid black;
-    padding: 1rem 8rem;
+    padding: 1rem 8rem 1rem 8rem;
     font-size: 3rem;
 }
 .input-box input::placeholder{
-    font-size: 3rem;
+    font-size: 2rem;
 }
 .input{
    display: flex;
@@ -388,7 +388,7 @@ footer ul li a{
     }
 }
 @media(max-width:600px){
-    header menu-icon{
+    header #menu-icon{
         display: block;
         
     }
@@ -399,7 +399,7 @@ footer ul li a{
         width: 100%;
         padding: 1rem;
         color: white;
-        display: flex;
+        display: none;
         flex-direction: column;
         text-align: center;
         background-color: rgba(0, 0, 0, 0.9);
